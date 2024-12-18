@@ -1,0 +1,49 @@
+body {
+  background-color: #9f4fde;
+  color: #fff;
+}
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.button {
+  font-size: 24px;
+  padding: 18px 39px;
+  border: 7px solid #fff;
+  width: fit-content;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button:hover {
+  opacity: 0.5;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 100px;
+}
+.img {
+  margin: 64px auto 72px;
+  display: block;
+}
+.phrase {
+  font-size: 48px;
+  font-weight: 700;
+}
+.advice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+@media (max-width: 512px) {
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+}
